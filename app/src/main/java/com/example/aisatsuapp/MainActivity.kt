@@ -34,13 +34,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                     textView.text = "こんにちは"
                 } else if(18 <= hour && hour < 2) {
                     textView.text = "こんばんは"
+                }
             },
 
-        val calendar = Calendar.getInstance().time
-                calendar.hours
-                calendar.minutes
-
-            },
             1, 0, true)
         timePickerDialog.show()
     }
